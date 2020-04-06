@@ -8,7 +8,7 @@ def discounted(price, discount):
     return(price_with_discount)
 
 p=discounted(100, 10)
-print(p)
+
 
 product = {'name':'Samsung galaxy s10','stock': 8, 'price': 50000, 'discount': 20}
 product['with discount'] = discounted(product['price'], product['discount'])
